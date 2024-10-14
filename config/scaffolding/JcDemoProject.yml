@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitBranch: main
+- name: JcPublicTools
+  gitServerName: johnpcarter
+  gitUrl: https://github.com/johnpcarter
+  gitUsername: johnpcarter
+  gitTag: v2.1.0
