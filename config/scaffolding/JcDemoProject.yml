@@ -13,13 +13,8 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitTag: v2.1.0
-security:
-- name: JcPublicTools
-  allowedServices:
-  - jc.tools.pub.date:currentYear
-  javaServiceSetting: RESTRICTED
 services:
-- serviceName: project.jcdemo.integrations:getCurrentYearFromPublicPackage
+- serviceName: project.jcdemo.integrations:test2
   packages:
   - name: JcDemoProject
     version: "1.0"
