@@ -14,18 +14,29 @@ packages:
   gitUsername: johnpcarter
   gitTag: v2.1.0
 - name: aSampleEdgeConnectivity
+  version: "1.0"
   gitServerName: jcarter
   gitUrl: https://github.ibm.com/Erik-Becker2
   gitUsername: j-carter
   gitBranch: main
 services:
-- serviceName: project.jcdemo.integrations:test2
+- serviceName: project.jcdemo.integrations:callGreetingService
   packages:
   - name: JcDemoProject
     version: "1.0"
   - name: JcPublicTools
     version: "5.0"
-- serviceName: jc.tools.pub.date:currentYear
+  - name: aSampleEdgeConnectivity
+    version: "1.0"
+- serviceName: asampleedgeconnectivity.services:callGreetingService
   packages:
-  - name: JcPublicTools
-    version: "5.0"
+  - name: aSampleEdgeConnectivity
+    version: "1.0"
+- serviceName: asampleedgeconnectivity.soap.consumers.GreetingService_Provider_WSD_.connectors:GreetingService_Provider_WSD_PortType_GreetingService
+  packages:
+  - name: aSampleEdgeConnectivity
+    version: "1.0"
+- serviceName: pub.client:soapClient
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.1969
