@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitTag: v2.1.0
+- name: aSampleEdgeConnectivity
+  gitServerName: jcarter
+  gitUrl: https://github.ibm.com/Erik-Becker2
+  gitUsername: j-carter
+  gitBranch: main
 services:
 - serviceName: project.jcdemo.integrations:test2
   packages:
