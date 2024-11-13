@@ -9,17 +9,18 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="JcPublicTools">5.0</value>
+    <value name="aSampleEdgeConnectivity">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">7</value>
+  <value name="build">10</value>
   <null name="description"/>
   <value name="created_date">14-10-2024 16:07:01 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-10-15T13:50:01.795976672Z</value>
+  <value name="lastUpdated">2024-11-13T15:42:11.723601309Z</value>
   <value name="wmProjectId">fl6cfc2826c86754abcd769f</value>
   <value name="creator">John Carter</value>
 </Values>
